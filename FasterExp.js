@@ -12,9 +12,9 @@
 //  leveler must have diaLead, nithPrep and shrineHunter in quitlist, everryone else must have leveler in quitlist.
 
 
-var	leveler 		= "", // Char being leveled
-	diaLead 		= "", // Diablo lead char (should be hammerdin), opens boss seals, opens TP + summons leveler for seal boss kills, helps prep Daiblo + kills baal
-	nithPrep 		= "", // Preps nith, then helps clear throne
+var	leveler			= "", // Char being leveled
+	diaLead			= "", // Diablo lead char (should be hammerdin), opens boss seals, opens TP + summons leveler for seal boss kills, helps prep Daiblo + kills baal
+	nithPrep		= "", // Preps nith, then helps clear throne
 	shrineHunter	= "", // Hunts for shrine and tps throne for rest of team
 	BOer			= ""; // BO Barb (only runs BoBarbHelper.js)
 

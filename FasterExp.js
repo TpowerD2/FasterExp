@@ -530,9 +530,9 @@ function FasterExp() {
 
         Pather.moveTo(7788, 5292);
         this.diabloPrep();
-        say(msgDia);
         Attack.hurt(243, hurtDia); // Diablo
         Town.goToTown(5);
+        say(msgDia);
         Town.move("portalspot");
     }
 
